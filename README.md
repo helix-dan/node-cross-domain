@@ -2,6 +2,7 @@ nodejs_cross_domain
 ===================
 
 nodejs cross domain to request some website API
+NodeJS 跨域访问
 
 install nodejs and forever
 -------
@@ -9,12 +10,12 @@ install nodejs
 http://nodejs.org
 
 install forever
-<code>$ npm install forever</code>
+<code>$ npm install -g forever</code>
 
 text server.js
 --------------
-<pre><code>$ node ./server.js
-$ forever ./server.js</code></pre>
+<pre><code>$ node server.js
+$ forever server.js</code></pre>
 
 add .sh to startup services
 ---------------------------
