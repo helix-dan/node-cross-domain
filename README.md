@@ -9,18 +9,18 @@ install nodejs
 http://nodejs.org
 
 install forever
-$ npm install forever
+<code>$ npm install forever</code>
 
 text server.js
 --------------
-nodejs ./server.js
-forever ./server.js
+<pre><code>$ node ./server.js
+$ forever ./server.js</code></pre>
 
 add .sh to startup services
 ---------------------------
-chmod +x /etc/init.d/forever_start.sh
-chkconfig --add /etc/init.d/forever_start.sh
+<pre><code>$ chmod +x /etc/init.d/forever_start.sh
+$ chkconfig --add /etc/init.d/forever_start.sh</code></pre>
 
 text shell
---------
-$ . ./forever_startup.sh start
+----------
+<code>$ . ./forever_startup.sh start</code>
